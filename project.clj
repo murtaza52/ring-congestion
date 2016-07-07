@@ -7,11 +7,11 @@
         :url "https://github.com/listora/again"}
   :deploy-repositories [["releases" :clojars]]
 
-  :dependencies [[clj-time "0.8.0" :exclusions [org.clojure/clojure]]
-                 [com.taoensso/carmine "2.8.0" :exclusions [org.clojure/clojure]]
-                 [org.clojure/clojure "1.6.0"]]
+  :dependencies [[clj-time "0.12.0" :exclusions [org.clojure/clojure]]
+                 [com.taoensso/carmine "2.13.1" :exclusions [org.clojure/clojure]]
+                 [org.clojure/clojure "1.8.0"]]
 
-  :profiles {:dev {:dependencies [[compojure "1.2.1"]
+  :profiles {:dev {:dependencies [[compojure "1.5.1"]
                                   [ring-mock "0.1.5"]]
 
                    :plugins [[jonase/eastwood "0.1.5"]
